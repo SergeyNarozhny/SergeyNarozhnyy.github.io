@@ -12,9 +12,21 @@ body {
   margin-bottom: 20px;
 }
 
-.nav li a .active {
-	background:#eee;
+.affix {
+  width: inherit;
+  position: fixed;
+  top: 50px;
 }
+.affix-bottom {
+  width: inherit;
+  position: absolute;
+  top: auto;
+  bottom: 200px;
+}
+.affix-top {}
+
+
+
 
 
 
