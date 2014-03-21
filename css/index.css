@@ -4,26 +4,23 @@
 ******/
 
 body {
-  padding-top: 20px;
-  padding-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .navbar {
-  margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 
-.affix {
-  width: inherit;
-  position: fixed;
-  top: 50px;
-}
 .affix-bottom {
-  width: inherit;
-  position: absolute;
-  top: auto;
-  bottom: 200px;
+	width: inherit;
+	position: absolute;
+	top: auto;
+	bottom: 200px;
 }
-.affix-top {}
+.affix-top {
+	top:0;
+}
 
 
 
