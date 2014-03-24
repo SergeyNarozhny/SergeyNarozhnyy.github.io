@@ -12,18 +12,12 @@ body {
 	margin-bottom: 20px;
 }
 
-.affix-bottom {
-	width: inherit;
-	position: absolute;
-	top: auto;
-	bottom: 200px;
-}
-.affix-top {
-	top:0;
+#sideaffix li {
+	border-left: 1px solid #fff;
 }
 
-.affix > li .active {
-	background:#eee;
+#sideaffix li.active {
+	border-left: 1px solid #eee;
 }
 
 
